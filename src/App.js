@@ -9,7 +9,6 @@ class App extends Component {
             output:'',
 
         }
-        this.update = this.update.bind(this);
     }
 
     update(e){
