@@ -20,8 +20,7 @@ class App extends Component {
             output:
             window.Babel.transform(code,
                     {presets:['es2015', 'react']}
-                    ).code,
-            err:''
+                    ).code
         });
     }catch(err){
         this.setState({err:err.message})
