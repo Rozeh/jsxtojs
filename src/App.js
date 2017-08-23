@@ -8,7 +8,7 @@ class App extends Component {
         this.state = {
             input: 'React JSX 코드를 입력하세요',
             output:'',
-            err:''
+
         }
         this.update = this.update.bind(this);
     }
