@@ -6,7 +6,6 @@ class App extends Component {
     constructor(){
         super();
         this.state = {
-            input: 'React JSX 코드를 입력하세요',
             output:'',
 
         }
